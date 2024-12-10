@@ -1,0 +1,60 @@
+{
+  "navbar": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "showreel": "Showreel",
+    "toggleTheme": "Toggle Theme"
+  },
+  "footer": {
+    "copyright": "My Portfolio. All rights reserved.",
+    "resume": "Resume",
+    "portfolioLink": "Portfolio"
+  },
+  "resume": {
+    "title": "Your Name",
+    "jobTitle": "Job Title",
+    "summary": "Summary",
+    "summaryDescription": "A brief summary about yourself and your professional background.",
+    "experience": "Experience",
+    "experienceDescription": "Description of your responsibilities and achievements.",
+    "education": "Education",
+    "graduationYear": "Graduation Year",
+    "skills": "Skills",
+    "skill1": "Skill 1",
+    "skill2": "Skill 2",
+    "skill3": "Skill 3",
+    "download": "Download Resume"
+  },
+  "home": {
+    "heroTitle": "Welcome to My Portfolio",
+    "heroDescription": "Showcasing my video editing and montage skills."
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "Feel free to reach out for collaborations or inquiries.",
+    "formLabels": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    }
+  },
+  "portfolio": {
+    "viewProject": "View Project",
+    "corporateTitle": "Corporate Promo",
+    "corporateDescription": "Professional corporate video showcasing brand identity and values.",
+    "eventTitle": "Event Highlights",
+    "eventDescription": "Dynamic event coverage capturing key moments and energy.",
+    "productTitle": "Product Launch",
+    "productDescription": "Compelling product introduction video for marketing campaign.",
+    "videoEditorCVTitle": "Video Editor CV",
+    "videoEditorCVDescription": "Showcasing my skills and experience as a video editor.",
+    "videoEditorPortfolioTitle": "Video Editor Portfolio",
+    "videoEditorPortfolioDescription": "A collection of my best video editing work."
+  },
+  "showreel": {
+    "title": "Professional Showreel",
+    "description": "A collection of my best work."
+  }
+}

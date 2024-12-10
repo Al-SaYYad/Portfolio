@@ -1,0 +1,61 @@
+{
+  "navbar": {
+    "title": "محفظتي",
+    "home": "الرئيسية",
+    "portfolio": "محفظة الأعمال",
+    "contact": "اتصل بي",
+    "showreel": "عرض الأعمال",
+    "toggleTheme": "تغيير السمة"
+  },
+  "footer": {
+    "copyright": "محفظتي. جميع الحقوق محفوظة.",
+    "resume": "السيرة الذاتية",
+    "portfolioLink": "محفظة الأعمال"
+  },
+  "resume": {
+    "title": "اسمك",
+    "jobTitle": "المسمى الوظيفي",
+    "summary": "الملخص",
+    "summaryDescription": "ملخص موجز عن نفسك وخلفيتك المهنية.",
+    "experience": "الخبرة",
+    "experienceDescription": "وصف مسؤولياتك وإنجازاتك.",
+    "education": "التعليم",
+    "graduationYear": "سنة التخرج",
+    "skills": "المهارات",
+    "skill1": "مهارة 1",
+    "skill2": "مهارة 2",
+    "skill3": "مهارة 3",
+    "download": "تحميل السيرة الذاتية"
+  },
+  "home": {
+    "heroTitle": "مرحبًا بكم في محفظتي",
+    "heroDescription": "عرض مهاراتي في تحرير الفيديو والمونتاج."
+  },
+  "contact": {
+    "title": "اتصل بي",
+    "description": "لا تتردد في التواصل للتعاون أو الاستفسارات.",
+    "formLabels": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "message": "الرسالة",
+      "send": "إرسال"
+    }
+  },
+  "portfolio": {
+    "viewProject": "عرض المشروع",
+    "corporateTitle": "عرض الشركات",
+    "corporateDescription": "فيديو احترافي يعرض هوية العلامة التجارية وقيمها.",
+    "eventTitle": "أحداث مميزة",
+    "eventDescription": "تغطية ديناميكية للأحداث تلتقط اللحظات الرئيسية والطاقة.",
+    "productTitle": "إطلاق المنتج",
+    "productDescription": "فيديو تقديمي جذاب للمنتج لحملة تسويقية.",
+    "videoEditorCVTitle": "سيرة محرر الفيديو",
+    "videoEditorCVDescription": "عرض مهاراتي وخبرتي كمحرر فيديو.",
+    "videoEditorPortfolioTitle": "محفظة محرر الفيديو",
+    "videoEditorPortfolioDescription": "مجموعة من أفضل أعمالي في تحرير الفيديو."
+  },
+  "showreel": {
+    "title": "عرض الأعمال الاحترافية",
+    "description": "مجموعة من أفضل أعمالي."
+  }
+}
