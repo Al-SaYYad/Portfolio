@@ -1,0 +1,32 @@
+/* 
+  Table of Contents
+  ===========================
+  1. Left Section ==> Buttons
+  2. Right Section ==> Buttons
+  3. Responsive Design (media query)
+*/
+footer.flex {
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+footer.flex ul.flex {
+  gap: 1rem;
+}
+footer.flex ul.flex a {
+  color: var(--sub-title);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+footer.flex ul.flex a:hover {
+  color: var(--blue);
+}
+footer.flex p {
+  color: rgb(113 113 122);
+}
+@media (max-width: 767px) {
+  footer.flex {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

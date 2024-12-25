@@ -1,0 +1,146 @@
+/* 
+  Table of Contents
+  ===========================
+  1. Left Section ==> Buttons
+  2. Right Section ==> Buttons
+  3. Responsive Design (media query)
+*/
+
+main.flex {
+  gap: 2rem;
+  align-items: start;
+}
+/* ===========================
+  1. Left Section ==> Buttons
+===========================
+*/
+main section.left-section {
+  flex-direction: column;
+  gap: 10px;
+}
+main section.left-section button {
+  background-color: var(--secondary);
+  color: var(--title);
+  width: 11rem;
+  padding: 0.75rem 0;
+  text-align: center;
+  text-transform: capitalize;
+  opacity: 0.8;
+  border-radius: 6px;
+  transition: 0.3s;
+  border: 1px solid var(--border);
+}
+main section.left-section button:hover {
+  background-color: var(--blue);
+  color: var(--primary);
+  opacity: 1;
+}
+main section.left-section button.active {
+  opacity: 1;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  padding: 0.8rem 0;
+  background-color: var(--blue);
+}
+.light main section.left-section button.active {
+  border-color: #000;
+}
+/* ===========================
+  2. Right Section ==> Card
+===========================
+*/
+main section.right-section {
+  flex-grow: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 1rem;
+  row-gap: 2rem;
+  flex-grow: 1;
+}
+.card {
+  max-height: 350px;
+  box-shadow: -1 1px 1px rgba(0, 0, 0, 0.16), 1 1px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(93, 188, 252, 0.3);
+  border-radius: 10px;
+  transition: 0.3s;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+}
+.card:hover {
+  border-color: var(--blue);
+}
+.light .card:hover {
+  background-color: rgba(248, 248, 248);
+}
+.card img {
+  height: 145px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+.card .box {
+  padding: 1rem 0.4rem;
+}
+.card .box .title {
+  color: var(--title);
+  text-transform: capitalize;
+}
+.card .box .sub-title {
+  color: var(--sub-title);
+  font-size: 0.8rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1.1rem;
+
+  /* خصائص لعرض عدد محدد من السطور */
+  display: -webkit-box; /* لتمكين دعم line-clamp */
+  -webkit-box-orient: vertical; /* لتحديد اتجاه النص */
+  overflow: hidden; /* إخفاء النص الزائد */
+  -webkit-line-clamp: 3; /* تحديد عدد السطور */
+}
+.card .box .icons {
+  justify-content: space-between;
+}
+.card .box .icons div.flex {
+  gap: 11px;
+}
+.card .icon-link,
+.card .icon-github {
+  font-size: 1.2rem;
+  color: var(--sub-title);
+  transition: 0.3s;
+}
+.card .icon-link:hover,
+.card .icon-github:hover {
+  cursor: pointer;
+  scale: 1.1;
+  color: var(--title);
+}
+.card a.link {
+  font-size: 0.9rem;
+  color: var(--blue);
+  margin-right: 12px;
+  gap: 6px;
+}
+.card a.link span {
+  align-self: end;
+}
+/* 3. Responsive Design (media query) */
+@media (max-width: 600px) {
+  main.flex {
+    flex-direction: column;
+    gap: 2.64rem;
+    align-items: center;
+  }
+  main section.left-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main section.left-section button {
+    width: 7rem;
+    padding: 0.8rem 0;
+    font-size: 0.9rem;
+  }
+}

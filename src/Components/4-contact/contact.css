@@ -1,0 +1,100 @@
+/* 
+  Table of Contents
+  ===========================
+  1. Responsive Design (media query) 
+*/
+section svg {
+  fill: var(--sub-title);
+  width: 40px;
+  height: 40px;
+}
+section.contact-us .title {
+  font-size: 2.1rem;
+  color: var(--title);
+  margin-bottom: 1rem;
+  gap: 10px;
+}
+section.contact-us .sub-title {
+  color: var(--sub-title);
+  margin-bottom: 2rem;
+  line-height: 1.65rem;
+}
+section.contact-us label {
+  color: var(--sub-title);
+}
+section.contact-us #mail,
+section.contact-us #message {
+  all: unset;
+  background-color: rgba(64, 64, 70, 0.15);
+  border: 1px solid rgb(64, 64, 70);
+  width: 16rem;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+section.contact-us div .error-message,
+section.contact-us div .error-message {
+  display: block;
+  margin-top: 10px;
+  margin-left: 130px;
+  color: red;
+}
+.light section.contact-us #mail,
+.light section.contact-us #message {
+  background-color: rgba(202, 202, 202, 0.15);
+  border: 1px solid rgb(202, 202, 202);
+}
+section.contact-us #mail:hover,
+section.contact-us #message:hover,
+section.contact-us #mail:focus,
+section.contact-us #message:focus {
+  border: 1px solid rgb(45 212 191);
+}
+.light section.contact-us #mail:hover,
+.light section.contact-us #message:hover,
+.light section.contact-us #mail:focus,
+.light section.contact-us #message:focus {
+  border: 1px solid rgb(78 80 80);
+}
+.light section.contact-us #mail,
+.light section.contact-us #message {
+  background-color: rgba(202, 202, 202, 0.15);
+  border: 1px solid rgb(202, 202, 202);
+}
+section.contact-us #message {
+  min-height: 9rem;
+  resize: vertical;
+}
+section.contact-us .success-message {
+  font-size: 1.2rem;
+  color: #3656dd;
+  margin-top: 1.2rem;
+  gap: 10px;
+}
+/* 1. Responsive Design (media query) */
+@media (max-width: 600px) {
+  section.contact-us .animation {
+    display: none;
+  }
+  section.contact-us form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+  section.contact-us form div.flex {
+    flex-direction: column;
+    align-items: start;
+  }
+  section.contact-us #mail,
+  section.contact-us #message {
+    width: 100%;
+    padding: 0.7rem 0;
+    margin-left: 0;
+  }
+  section.contact-us .submit {
+    width: 30%;
+    align-self: center;
+  }
+}
