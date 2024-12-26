@@ -51,6 +51,12 @@ button:active {
 .scroll2Top:active {
   opacity: 1;
 }
+.Toastify__toast,
+.Toastify__toast svg {
+  color: #0095f6;
+  fill: #0095f6;
+}
+
 @media (max-width: 1000px) {
   .container {
     --contianer-padding: 1.7rem;
